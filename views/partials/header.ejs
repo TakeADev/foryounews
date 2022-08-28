@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/579474135d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-anek">
+  <nav class="sticky top-0 container mx-auto p-3 bg-white border-b-2 border-b-zinc-400 mb-7">
+    <div class="hidden lg:flex items-center justify-between">
+      <div class="pt-2">
+        <a class="text-xl hover:text-gray-500" href="/"><span class="fa fa-solid fa-bullhorn fa-lg mr-3"></span><b>For
+            You News</b></a>
+      </div>
+      <div class="flex space-x-6">
+        <a class="text-md hover:text-gray-500" href="/">Home</a>
+        <a class="text-md hover:text-gray-500" href="/category/business">Business</a>
+        <a class="text-md hover:text-gray-500" href="/category/entertainment">Entertainment</a>
+        <a class="text-md hover:text-gray-500" href="/category/general">General</a>
+        <a class="text-md hover:text-gray-500" href="/category/health">Health</a>
+        <a class="text-md hover:text-gray-500" href="/category/science">Science</a>
+        <a class="text-md hover:text-gray-500" href="/category/sports">Sports</a>
+        <a class="text-md hover:text-gray-500" href="/category/technology">Technology</a>
+        <div class="" id="searchBar">
+          <form action="/search" method="post">
+            <input type="text" name="search" placeholder="Search" class="pl-3 border-2 rounded-full">
+          </form>
+        </div>
+    </div>
+        
+      </div>
+
+    <div id="mobileMenu">
+      <div class="flex lg:hidden justify-between" id="mobileHeader">
+        <div class="pt-2">
+          <a class="text-xl hover:text-gray-500" href="/"><span class="fa fa-solid fa-bullhorn fa-lg mr-3"></span><b>For
+              You News</b></a>
+        </div>
+        <button class="flex lg:hidden" id="mobileMenuButton">
+          <i class="fa fa-solid fa-bars text-xl p-2 rounded"></i>
+        </button>
+      </div>
+      <div class="hidden lg:hidden flex-col items-center" id="mobileMenuItems">
+        <form action="/search" method="post">
+            <input type="text" name="search" placeholder="Search" class="pl-3 border-2 border-black rounded-full mt-10">
+          </form>
+        <a class="text-lg font-bold hover:text-gray-500 mt-5 mb-3" href="/">Home</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/business">Business</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/entertainment">Entertainment</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/general">General</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/health">Health</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/science">Science</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/sports">Sports</a>
+        <a class="text-lg font-bold hover:text-gray-500 mb-3" href="/category/technology">Technology</a>
+        <div class="" id="searchBar">
+          
+        </div>
+      </div>
+    </div>
+
+  </nav>
