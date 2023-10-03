@@ -38,7 +38,7 @@ utilObj.articlesToArray = async function(arts){
         }
         //for every article, push to array
           for (let i = 0; i < arts.articles.length; i++) {
-            if(arts.articles[i].url != null){
+            if(arts.articles[i].url != null && arts.articles[i].title != '[Removed]'){
               //if no image, insert placeholder image
               if(arts.articles[i].urlToImage == null){
               arts.articles[i].urlToImage = 'https://images.unsplash.com/photo-1495020689067-958852a7765e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80'
