@@ -14,7 +14,7 @@ middlewareObj.categoryMiddleware = async function (req, res, next) {
       } 
       //Else send request for all top articles
       else {
-        utils.whatPage = undefined;
+        utils.whatpage = undefined;
         utils.reqUrl = 'https://newsapi.org/v2/top-headlines?country=us&pageSize=21&apiKey=' + utils.apiKey
         //pushes articles to an array
         await utils.articlesToArray();
