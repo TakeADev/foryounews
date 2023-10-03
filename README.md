@@ -4,4 +4,4 @@
 
 ### Built using Express and TailwindCSS
 
-### Deployment URL https://foryounews.herokuapp.com/
+### Deployment URL: https://for-you-news.onrender.com/
